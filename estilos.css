@@ -132,6 +132,18 @@ body .portada
     background-size: cover;
 }
 
+#criticas
+{
+    background: url(/labo3/img/portada5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#premios
+{
+    background: url(/labo3/img/emmys.jpg);
+}
+
 body .portada::before
 {
     content:"";
@@ -269,4 +281,23 @@ section .elencosec
     text-align: left;
     margin-top: 5%;
     padding-top: 5%;
+}
+
+section article .premios 
+{
+    display: flex;
+}
+
+section article .imagenespremios
+{
+    display: flex;
+    flex-flow: row;
+}
+
+section article .imagenespremios img
+{
+    width: 30%;
+    margin: 2%;
+    border: 2px solid white;
+    border-radius: 2%;
 }
