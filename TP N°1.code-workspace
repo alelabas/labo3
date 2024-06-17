@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../TP N°1"
+		},
+
+	],
+	"settings": {
+		"dotnet.defaultSolution": "TP N°1/Ejercicio1.sln",
+		"liveServer.settings.multiRootWorkspaceName": "TP N°1"
+	}
+}

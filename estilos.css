@@ -115,19 +115,19 @@ body .portada
 
 #index
 {
-    background: url(/img/portada3.jpg);
+    background: url(/labo3/img/portada3.jpg);
 }
 
 #elencop
 {
-    background: url(/img/portada.jpeg);
+    background: url(/labo3/img/portada.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #elencos
 {
-    background: url(/img/portada2.jpg);
+    background: url(/labo3/img/portada2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -205,7 +205,7 @@ section article .reverse
 section article .imageninicio
 {
     width: 40%;
-    border: 2px solid rgba(34, 34, 34, 0.487);
+    border: 2px solid rgba(255, 255, 255, 0.292);
     border-radius: 2%;
 }
 
@@ -231,7 +231,8 @@ section article .contenido h2
 section article .contenido #bandasonoravideo
 {
     margin-top: 5%;
-    border: 5px solid rgba(46, 46, 46, 0.043);
+    border: 3px solid rgba(255, 255, 255, 0.292);
+    border-radius: 3%;
 }
 
 .esecundario
@@ -242,24 +243,30 @@ section article .contenido #bandasonoravideo
 
 section .elencosec
 {
-    width: 40%;
     margin: 5% 1% 0% 5%;
+    width: 27%;
 }
 
 .elencosec .texto
 {
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: space-evenly;
+    flex-flow: column wrap;
 }
 
 .elencosec h2
 {
-    font-size: 40px;
-    margin-left: 10%;
+    font-size: 30px;
 }
 
 .elencosec .imagensec
 {
-    width: 40%;
+    width: 100%;
+    border: 2px solid rgba(255, 255, 255, 0.292);
+    border-radius: 4%;
+}
+
+.elencosec .contenido
+{
+    text-align: left;
+    margin-top: 5%;
+    padding-top: 5%;
 }
