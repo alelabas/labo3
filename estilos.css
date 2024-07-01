@@ -115,26 +115,26 @@ body .portada
 
 #index
 {
-    background: url(/labo3/img/portada3.jpg);
+    background: url(/img/portada3.jpg);
 }
 
 #elencop
 {
-    background: url(/labo3/img/portada.jpeg);
+    background: url(/img/portada.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #elencos
 {
-    background: url(/labo3/img/portada2.jpg);
+    background: url(/img/portada2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #criticas
 {
-    background: url(/labo3/img/portada5.jpg);
+    background: url(/img/portada5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
