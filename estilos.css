@@ -283,11 +283,9 @@ section .elencosec
     padding-top: 5%;
 }
 
-section article #textopremios
+section article .premios 
 {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
 }
 
 section article .imagenespremios
