@@ -301,3 +301,28 @@ section article .imagenespremios img
     border: 2px solid white;
     border-radius: 2%;
 }
+
+footer{
+	display: flex;
+    flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	height: 350px;
+}
+
+footer .logos
+{
+    margin-top: 2%;
+}
+
+footer h3
+{
+    color: #fff;
+}
+
+footer img{
+	max-width: 4rem;
+	width: 1000%;
+	height: auto;
+	margin-right: .5%;
+}
