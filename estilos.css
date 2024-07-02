@@ -144,6 +144,24 @@ body .portada
     background: url(/labo3/img/emmys.jpg);
 }
 
+#galeria
+{
+    margin-top: 6%;
+    background: url(/img/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#galeria h1
+{
+    text-align: center;
+}
+
+#galeria img
+{
+
+}
+
 body .portada::before
 {
     content:"";
@@ -189,7 +207,7 @@ p
     font-size: 18px;
 }
 
-article
+.secciones
 {
     display: block;
     background-color: rgb(26, 24, 24);
