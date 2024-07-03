@@ -157,11 +157,6 @@ body .portada
     text-align: center;
 }
 
-#galeria img
-{
-
-}
-
 body .portada::before
 {
     content:"";
@@ -207,7 +202,7 @@ p
     font-size: 18px;
 }
 
-.secciones
+article
 {
     display: block;
     background-color: rgb(26, 24, 24);
@@ -378,4 +373,33 @@ footer img
 	max-width: 4rem;
 	height: auto;
 	margin-right: .5%;
+}
+
+.galeria
+{
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.divgaleria
+{
+    width: 85%;
+    margin-top: 5%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    background-color: rgba(255, 0, 0, 0.281);
+    border-radius: 8px;
+    background-image: url(/labo3/img/balas.svg);
+}
+
+.fotos
+{
+    width: 350px;
+    height: 230px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 10px 10px 15px 10px rgba(2, 2, 2, 0.658);
 }
