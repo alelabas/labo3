@@ -80,6 +80,7 @@ nav .lista .submenu a:hover
 {
     background-color: #7f7f7f41;
     border: none;
+    width: 100%;
 }
 
 nav .lista .submenu a
@@ -168,7 +169,7 @@ body .portada
 
 #contacto
 {
-    background: url(/img/portada7.webp);
+    background: url(/labo3/img/portada7.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
