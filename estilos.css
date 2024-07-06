@@ -345,8 +345,14 @@ section article .premios
     display: flex;
 }
 
+section article p
+{
+    text-align: left;
+}
+
 #nominaciones
 {
+    flex-flow: column;
     justify-content: center;
 }
 
